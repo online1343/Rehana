@@ -78,63 +78,61 @@ src="https://www.facebook.com/tr?id=1095413825888817&ev=PageView&noscript=1"
     <div class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('https://raw.githubusercontent.com/online1343/aadiii/c21349986017726e41ca833a58a0fb24e01b5668/rehana.jpg');">
         <div class="absolute inset-0 bg-black bg-opacity-70"></div>
         <div class="relative text-center text-white max-w-2xl px-6">
-            <h1 class="neon-text">
+           <h1 class="neon-text">
   Rehana Malik <span class="dubai-glow">(Dubai)</span>
 </h1>
 
 <style>
 .neon-text {
-  color: #fff200; /* bright yellow */
+  color: #fff200; /* soft yellow */
   font-weight: bold;
-  font-size: 2rem; /* 👈 yahan se size chhota kiya */
+  font-size: 2rem;
   text-align: center;
   margin-top: 20px;
   text-shadow:
-    0 0 5px #fff200,
-    0 0 10px #ffcc00,
-    0 0 20px #ffcc00,
-    0 0 40px #ffaa00,
-    0 0 80px #ff8800;
-  animation: neonPulse 1.5s infinite alternate;
+    0 0 3px #fff200,
+    0 0 6px #ffcc00,
+    0 0 12px #ffaa00; /* 👈 glow kam kiya gaya */
+  animation: neonPulse 2s infinite alternate;
 }
 
-/* (Dubai) golden glow */
+/* (Dubai) golden part */
 .dubai-glow {
   color: #ffb300;
   text-shadow:
-    0 0 5px #ffb300,
-    0 0 10px #ff9900,
-    0 0 20px #ff6600,
-    0 0 40px #ff3300;
-  animation: dubaiPulse 2s infinite alternate;
+    0 0 3px #ffb300,
+    0 0 6px #ff9900,
+    0 0 12px #ff6600; /* 👈 subtle glow */
+  animation: dubaiPulse 2.5s infinite alternate;
 }
 
+/* Subtle animations */
 @keyframes neonPulse {
   from {
     text-shadow:
-      0 0 5px #fff200,
-      0 0 10px #ffcc00,
-      0 0 20px #ffaa00;
+      0 0 2px #fff200,
+      0 0 4px #ffcc00,
+      0 0 8px #ffaa00;
   }
   to {
     text-shadow:
-      0 0 10px #fff200,
-      0 0 20px #ffcc00,
-      0 0 40px #ffaa00;
+      0 0 4px #fff200,
+      0 0 8px #ffcc00,
+      0 0 12px #ffaa00;
   }
 }
 
 @keyframes dubaiPulse {
   from {
     text-shadow:
-      0 0 5px #ffb300,
-      0 0 10px #ff9900;
+      0 0 2px #ffb300,
+      0 0 4px #ff9900;
   }
   to {
     text-shadow:
-      0 0 10px #ffcc33,
-      0 0 20px #ff9900,
-      0 0 40px #ff6600;
+      0 0 4px #ffb300,
+      0 0 8px #ff9900,
+      0 0 12px #ff6600;
   }
 }
 </style>
